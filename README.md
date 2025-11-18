@@ -32,115 +32,12 @@ Personalized Care: Context-aware recommendations considering age, condition, and
 Clinical Decision Support: Automated health advisory generation
 
 📈 Results Summary
-Metric	Value	Description
-Model Accuracy	78.3%	Test Results prediction performance
-Anomalies Detected	5%	Unusual billing patterns identified
-Key Predictor	Medical Condition	Most important feature in predictions
-High-Cost Anomalies	12 cases	Exceptionally expensive treatments
-Low-Cost Anomalies	8 cases	Suspiciously inexpensive cases
-🛠 Installation & Setup
-Prerequisites
-Python 3.8+
-
-pip package manager
-
-Installation Steps
-Clone the repository
-
-bash
-
-Copy
-
-Download
-git clone https://github.com/yourusername/healthcare-analysis.git
-cd healthcare-analysis
-Install dependencies
-
-bash
-
-Copy
-
-Download
-pip install -r requirements.txt
-Run the analysis
-
-bash
-
-Copy
-
-Download
-python healthcare_analysis.py
-Dependencies
-The project requires the following Python packages:
-
-txt
-
-Copy
-
-Download
-pandas>=1.3.0
-numpy>=1.21.0
-matplotlib>=3.5.0
-seaborn>=0.11.0
-scikit-learn>=1.0.0
-jupyter
-📁 Project Structure
-text
-
-Copy
-
-Download
-healthcare-analysis/
-├── healthcare_analysis.py          # Main analysis script
-├── healthcare_analysis.ipynb       # Jupyter notebook version
-├── requirements.txt               # Python dependencies
-├── README.md                     # Project documentation
-├── .gitignore                   # Git ignore file
-└── images/                      # Visualization outputs
-    ├── distributions.png
-    ├── confusion_matrix.png
-    ├── feature_importance.png
-    └── anomalies_detection.png
-🚀 Usage
-Running the Complete Analysis
-python
-
-Copy
-
-Download
-# Execute the main script
-python healthcare_analysis.py
-
-# Or run in Jupyter notebook
-jupyter notebook healthcare_analysis.ipynb
-Interactive AI Doctor Recommendations
-python
-
-Copy
-
-Download
-from ai_doctor_recommender import AIDoctorRecommender
-
-# Initialize the AI system
-doctor_ai = AIDoctorRecommender()
-
-# Generate personalized recommendation
-recommendation = doctor_ai.generate_recommendation(
-    age=45,
-    condition="Hypertension",
-    medication="Lipitor",
-    test_result="Abnormal"
-)
-
-print(recommendation)
-Sample Output
-text
-
-Copy
-
-Download
-PATIENT HEALTH ADVISORY
-==================================================
+Metric	                  Value	                      Description
+Model Accuracy	          78.3%	                      Test Results prediction performance
+Anomalies Detected	      5%	                      Unusual billing patterns identified
+Key Predictor	          Medical Condition	          Most important feature in predictions
+High-Cost Anomalies	      12 cases	                  Exceptionally expensive treatments
+Low-Cost Anomalies	      8 cases	                  Suspiciously inexpensive cases
 
 PATIENT PROFILE:
 • Age: 45
